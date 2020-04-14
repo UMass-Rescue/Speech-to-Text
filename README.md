@@ -19,7 +19,8 @@ Here is an example of the directory and file structure after the dependencies ar
 ```
 Speech-to-Text
 │   README.md
-│   requirements.txt    
+│   requirements.txt
+│   run.py
 │
 └───deepspeech-venv
 │   │   bin
