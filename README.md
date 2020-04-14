@@ -1,5 +1,5 @@
 # Speech-to-Text
-Using the DeepSpeech library by Mozilla, this is a speech-to-text engine. Provided with an audio file as input this will output a transcript in the form of a text file and a json file which includes the words, the time in seconds at which the word was detected in the audio file, and a confidence metric. This program will also output a log which contains only the time it took to run each audio file and the confidence metric.
+Using the DeepSpeech library by Mozilla, this is a speech-to-text engine. Provided with an audio file as input this will output a transcript in the form of a text file and a json file which includes the words, the time in seconds at which each word was detected in the audio file, and a confidence metric. This program will also output a log which contains only the time it took to run each audio file and the confidence metric.
 
 ## Dependencies
 `requirements.txt` contains all Python modules that this depends on, however, a models folder is still required containing pretrained model files that this engine will use.
