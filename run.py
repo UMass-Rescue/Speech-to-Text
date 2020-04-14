@@ -40,5 +40,8 @@ for i in range(len(arguments)):
 	elapsed_time = time.time() - start_time
 	logging.info('Confidence: {}'.format(trans["confidence"]))
 	logging.info('Elapsed Time: {:0.2f} seconds'.format(elapsed_time))
-	
 
+if os.path.exists('tmp.wav'):
+	os.remove('tmp.wav')
+else:
+	logging.info('tmp.wav did not exist')
