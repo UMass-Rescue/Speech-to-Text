@@ -4,11 +4,11 @@ Using the DeepSpeech library by Mozilla, this is a speech-to-text engine. Provid
 ## Dependencies
 `requirements.txt` contains all Python modules that this depends on, however, a models folder is still required containing pretrained model files that this engine will use.
 
-Here are explicit instructions for installing a Python environment with the required dependencies in the `requirements.txt` folder. Execute the following commands inside the project folder:
+Here are explicit instructions for installing a Python environment with the required dependencies in the `requirements.txt` folder. After cloning the repository, execute the following commands inside the project folder:
 
 ```shell
 # Create and activate a virtualenv
-python3 -m venv deepspeech-venv
+virtualenv -p python3 deepspeech-venv
 source deepspeech-venv/bin/activate
 
 # Install requirements
