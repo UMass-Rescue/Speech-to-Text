@@ -34,7 +34,7 @@ for i in range(len(arguments)):
 	for word in trans["words"]:
 		script = script + word["word"] + " "
 
-	with open('ninja_transcript.txt', 'w') as f:
+	with open('{}.txt'.format(transcript), 'w') as f:
 		f.write(script)
 
 	elapsed_time = time.time() - start_time
