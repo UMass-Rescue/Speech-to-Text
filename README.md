@@ -35,7 +35,7 @@ Speech-to-Text
 │   │   trie
 ```
 ### Model Folder
-I have compressed and uploaded a pretrained model to Google Drive, which should be extracted to the project folder. Below is the link:
+I have compressed and uploaded a pretrained model to Google Drive (will be uploaded to Box), which should be extracted to the project folder. Below is the link:
 
 https://drive.google.com/file/d/1R7uvOnLpESrep807VAilQ-ix5QTjOMjq/view?usp=sharing
 
@@ -59,7 +59,7 @@ The results were promising. The engine we are using performed better than all ot
 Amazon Transcribe | 8.21% | N/A | N/A | N/A | N/A |
 CMU PocketSphinx (0.1.15) | 31.82% | 0.32 | 1.87 | 2.04 | 97.8 MB |
 Google Speech-to-Text | 12.23% | N/A | N/A | N/A | N/A |
-**Mozilla DeepSpeech (0.6.1)** | 7.55% | 0.46  | N/A | N/A | 1146.8 MB |
+**Our DeepSpeech Engine** | 7.55% | 0.46  | N/A | N/A | 1146.8 MB |
 Picovoice Cheetah (v1.2.0) | 10.49% | 0.04 | 0.62 | 3.11 | 47.9 MB |
 Picovoice Cheetah LibriSpeech LM (v1.2.0) | 8.25% | 0.04 | 0.62 | 3.11 | 45.0 MB |
 Picovoice Leopard (v1.0.0) | 8.34% | 0.02 | 0.55 | 2.55 | 47.9 MB |
