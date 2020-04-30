@@ -35,9 +35,13 @@ Speech-to-Text
 │   │   trie
 ```
 ### Model Folder
-I have compressed and uploaded a pretrained model to Google Drive (will be uploaded to Box), which should be extracted to the project folder. Below is the link:
+I have compressed and uploaded a pretrained model to Google Drive, which should be extracted to the project folder. Below is the link:
 
 https://drive.google.com/file/d/1R7uvOnLpESrep807VAilQ-ix5QTjOMjq/view?usp=sharing
+
+I have also uploaded it to Box, UMass Amherst's cloud storage server at this link:
+
+https://umass.box.com/s/pluev23rmzvpcvbxf59j4gubv5eaw0yu
 
 ## Usage
 A simple interface was created with run.py. Run this script with all file locations as arguments following `run.py`. Any audio files of type mp3 or wav are supported and any number of audio files may be included as arguments.
