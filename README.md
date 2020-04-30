@@ -54,16 +54,16 @@ Several models were tested that are considered to be some of the highest perform
 
 The results were promising. The engine we are using performed better than all other speech-to-text engines except for Picovoice Leopard LibriSpeech LM, whch had a slightly lower word error rate (6.58%), faster runtime, and much smaller model size. However, like all of these other engines, Picovoice's speech-to-text software is proprietary, while DeepSpeech is open source. I have included a table below that compares all of these engines using data from Picovoice's speech-to-text benchmark.
 
-| Engine | WER | RTF (Desktop) | RTF (Raspberry Pi 3) | RTF (Raspberry Pi Zero) | Model Size (Acoustic and Language) |
-:---:|:---:|:---:|:---:|:---:|:---:
-Amazon Transcribe | 8.21% | N/A | N/A | N/A | N/A |
-CMU PocketSphinx (0.1.15) | 31.82% | 0.32 | 1.87 | 2.04 | 97.8 MB |
-Google Speech-to-Text | 12.23% | N/A | N/A | N/A | N/A |
-**Our DeepSpeech Engine** | 7.55% | 0.46  | N/A | N/A | 1146.8 MB |
-Picovoice Cheetah (v1.2.0) | 10.49% | 0.04 | 0.62 | 3.11 | 47.9 MB |
-Picovoice Cheetah LibriSpeech LM (v1.2.0) | 8.25% | 0.04 | 0.62 | 3.11 | 45.0 MB |
-Picovoice Leopard (v1.0.0) | 8.34% | 0.02 | 0.55 | 2.55 | 47.9 MB |
-Picovoice Leopard LibriSpeech LM (v1.0.0) | 6.58% | 0.02 | 0.55 | 2.55 | 45.0 MB |
+| Engine | WER | RTF (Desktop) | Model Size (Acoustic and Language) |
+:---:|:---:|:---:|:---:
+Amazon Transcribe | 8.21% | N/A | N/A |
+CMU PocketSphinx (0.1.15) | 31.82% | 0.32 | 97.8 MB |
+Google Speech-to-Text | 12.23% | N/A | N/A |
+**Our DeepSpeech Engine** | 7.55% | 0.46  | 1146.8 MB |
+Picovoice Cheetah (v1.2.0) | 10.49% | 0.04 | 47.9 MB |
+Picovoice Cheetah LibriSpeech LM (v1.2.0) | 8.25% | 0.04 | 45.0 MB |
+Picovoice Leopard (v1.0.0) | 8.34% | 0.02 | 47.9 MB |
+Picovoice Leopard LibriSpeech LM (v1.0.0) | 6.58% | 0.02 | 45.0 MB |
 
 
 ## Feedback
